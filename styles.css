@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 .container {
@@ -9,9 +11,13 @@ body {
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    color: #468499;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
 }
 
 nav ul {
@@ -19,7 +25,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
 }
 
 nav li {
@@ -28,14 +33,13 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #007bff;
+    color: #fff;
     padding: 10px;
     border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #0056b3;
-    color: #fff;
+    background-color: #2980b9;
 }
 
 .hero {
@@ -45,16 +49,16 @@ nav a:hover {
 
 .hero h2 {
     font-size: 36px;
-    color: #3498db;
+    color: #fff;
 }
 
 .hero p {
     font-size: 18px;
-    color: #666666;
+    color: #fff;
 }
 
 .primary-button {
-    background-color: #3498db;
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -63,7 +67,7 @@ nav a:hover {
 }
 
 .primary-button:hover {
-    background-color: #2980b9;
+    background-color: #0056b3;
 }
 
 .features, .how-it-works {
@@ -77,6 +81,6 @@ nav a:hover {
 
 .features li, .how-it-works li {
     margin-bottom: 10px;
-    color: #777777;
+    color: #666666;
 }
 /* Additional styles for forms, buttons, etc. can be added here */
